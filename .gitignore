@@ -1,0 +1,12 @@
+# AeroBlade source and local build products are not part of this binary repository
+*.exe
+*.dll
+*.pyd
+*.py
+*.pyc
+*.spec
+*.zip
+build/
+dist/
+_internal/
+__pycache__/

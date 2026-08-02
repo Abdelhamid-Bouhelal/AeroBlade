@@ -1,0 +1,106 @@
+AEROBLADE ACADEMIC AND RESEARCH LICENSE
+Version 1.0 — 2 August 2026
+
+Copyright (c) 2026 Dr. Abdelhamid BOUHELAL. All rights reserved.
+
+1. Scope
+
+This license applies only to the original AeroBlade application, its user
+interface, documentation, numerical implementation, branding, and other
+materials owned by Dr. Abdelhamid BOUHELAL (the "Software"). Third-party
+components distributed with the Software remain governed by their own license
+terms, as identified in THIRD_PARTY_NOTICES.md and the LICENSES directory.
+
+2. Non-commercial academic grant
+
+Subject to these terms, the copyright holder grants an individual researcher,
+student, teacher, or non-profit academic institution a limited, non-exclusive,
+non-transferable, royalty-free right to install and use the unmodified binary
+release of the Software for:
+
+- non-commercial research;
+- teaching and classroom instruction;
+- academic study and evaluation; and
+- preparation of scholarly publications.
+
+This grant does not include commercial, consultancy, contract-research,
+certification, production-design, paid-service, or revenue-generating use.
+
+3. Citation and attribution
+
+Research results produced with AeroBlade must identify the software name and
+version. Scholarly publications should cite the release using CITATION.cff and,
+when available, the associated software article and archival DOI.
+
+4. Restrictions
+
+Unless the copyright holder gives prior written permission, you may not:
+
+- sell, rent, lease, sublicense, host as a paid service, or commercially exploit
+  the Software;
+- redistribute a modified AeroBlade binary or create a derivative product based
+  on AeroBlade-owned code, resources, interface, or branding;
+- remove or alter copyright, attribution, version, citation, license, or
+  disclaimer notices; or
+- represent AeroBlade results as certification, structural approval, or a
+  warranty of fitness for a turbine design.
+
+You may make a reasonable number of unmodified backup copies for your own
+licensed use. Redistribution of the official, unmodified portable archive is
+permitted only by linking to the copyright holder's official GitHub or Zenodo
+release page, unless written permission states otherwise.
+
+Nothing in this license restricts rights that applicable law cannot restrict.
+The reverse-engineering restriction does not apply where such activity is
+required by law or is expressly permitted by a third-party license for the sole
+purpose of debugging or replacing that third-party component. In particular,
+the separate licenses for dynamically loaded Qt/PySide6 libraries and the
+separate XFOIL executable remain fully effective.
+
+5. Commercial licensing
+
+Any commercial or consultancy use requires a separate written license from the
+copyright holder. Requests may be sent to:
+
+Dr. Abdelhamid BOUHELAL
+Department of Mechanical Engineering, University of El Oued, Algeria
+abdelhamid.bouhelal@g.enp.edu.dz
+
+6. Ownership and source code
+
+The Software is licensed, not sold. The copyright holder retains all title and
+intellectual-property rights in AeroBlade. This binary license does not grant
+access to or rights in the proprietary AeroBlade source code.
+
+7. Research-software limitations
+
+AeroBlade is intended for preliminary steady, incompressible, axial-flow
+horizontal-axis wind-turbine analysis within the documented validation scope.
+It is not validated for yawed or unsteady flow, aeroelastic response, structural
+strength or fatigue, control certification, acoustic prediction, site
+assessment, or safety-critical engineering approval.
+
+8. Disclaimer of warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, ACCURACY, NON-INFRINGEMENT, OR CONTINUOUS AVAILABILITY. USERS ARE
+RESPONSIBLE FOR VERIFYING INPUTS, CONVERGENCE, MODEL APPLICABILITY, AND RESULTS.
+
+9. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR
+COMMERCIAL DAMAGES ARISING FROM USE OF OR INABILITY TO USE THE SOFTWARE.
+
+10. Termination
+
+The license terminates automatically upon material breach. On termination, you
+must stop using and delete all AeroBlade-owned binary and documentation copies.
+Third-party rights and obligations remain governed by their respective terms.
+
+11. Governing text
+
+The English text controls. A translation may be supplied for convenience but
+does not replace this license. Questions about these terms should be directed
+to the copyright holder before use.
