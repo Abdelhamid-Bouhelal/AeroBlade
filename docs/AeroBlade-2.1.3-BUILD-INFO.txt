@@ -1,0 +1,14 @@
+AeroBlade 2.1.3
+Built: 2026-08-02T09:49:10+01:00
+Builder Python: 3.14.2
+Architecture: 64-bit Windows
+Package type: Portable one-folder executable
+License: Proprietary; non-commercial research and teaching permitted
+Commercial use: Prior written authorization required
+Dependency versions: Python 3.14.2, PySide6 6.11.1, NumPy 2.5.1, Matplotlib 3.11.1, PyInstaller 6.21.0
+Qt Virtual Keyboard: EXCLUDED (not used by AeroBlade)
+Qt PDF/QML/Quick: EXCLUDED (not used by the Widgets interface)
+XFOIL 6.99 source archive: INCLUDED
+Startup smoke test: PASS
+Bundled XFOIL startup test: PASS
+Numerical regression tests: 16/16 PASS

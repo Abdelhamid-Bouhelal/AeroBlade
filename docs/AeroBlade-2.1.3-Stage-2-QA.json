@@ -1,0 +1,29 @@
+{
+  "software": "AeroBlade 2.1.3",
+  "stage": "2 - controlled portable and publication documentation",
+  "status": "PASS",
+  "portable": {
+    "filename": "AeroBlade-2.1.3-Windows-x64-Portable.zip",
+    "bytes": 74377907,
+    "sha256": "787EA5E56EAF7A03224262F391302A14D01F604E846274F9EA185929588C2468",
+    "defender_scan": "PASS - no threats",
+    "file_version": "2.1.3",
+    "product_version": "2.1.3",
+    "authenticode": "NotSigned",
+    "loose_source_files": 0,
+    "qt_virtual_keyboard_files": 0,
+    "qt_pdf_qml_quick_files": 0
+  },
+  "documentation_package": {
+    "filename": "AeroBlade-2.1.3-Documentation-Package.zip",
+    "bytes": 1859849,
+    "sha256": "D9E3580BB3F70E88DE471975A8FC6D67C5D407E8880485795887DC24C2CE718E"
+  },
+  "tests": {
+    "unit": "16/16 PASS",
+    "packaged_gui_smoke": "PASS",
+    "xfoil_startup": "PASS",
+    "zip_integrity": "PASS"
+  },
+  "known_release_warning": "AeroBlade.exe and xfoil.exe are not Authenticode-signed."
+}

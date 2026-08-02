@@ -1,0 +1,44 @@
+{
+  "schema": "aeroblade-release-manifest-v1",
+  "application": "AeroBlade",
+  "version": "2.1.3",
+  "platform": "Windows x64",
+  "package_type": "portable one-folder ZIP",
+  "license": "AeroBlade Academic and Research License v1.0 (proprietary)",
+  "qt_virtual_keyboard_included": false,
+  "qt_pdf_qml_quick_included": false,
+  "tests": {
+    "source_unit_tests": "16/16 PASS",
+    "packaged_gui_smoke_test": "PASS",
+    "bundled_xfoil_startup_test": "PASS"
+  },
+  "dependencies": {
+    "Python": "3.14.2",
+    "PySide6": "6.11.1",
+    "NumPy": "2.5.1",
+    "Matplotlib": "3.11.1",
+    "PyInstaller": "6.21.0"
+  },
+  "files": {
+    "AeroBlade.exe": {
+      "bytes": 8337603,
+      "sha256": "85AB1107D2D467DAD4F73BB55210F85B54621074A459D7CB1FC7C89043A2527A"
+    },
+    "_internal/resources/xfoil.exe": {
+      "bytes": 1002125,
+      "sha256": "C17342F84AE260C2B11A74CD0E2FB8189A5F8954C6BB7A8467A0F27055C7FAEA"
+    },
+    "_internal/LICENSES/THIRD_PARTY_SOURCE/xfoil6.99.tgz": {
+      "bytes": 4515991,
+      "sha256": "5C0250643F52CE0E75D7338AE2504CE7907F2D49A30F921826717B8AC12EBE40"
+    },
+    "Documentation/AeroBlade-2.1.3-User-Guide.pdf": {
+      "bytes": 572360,
+      "sha256": "514F016CA826697B8377E31DF5FE2D32F85088607522590F0544FCAF545D67BE"
+    },
+    "Documentation/AeroBlade-2.1.3-Verification-Validation-Report.pdf": {
+      "bytes": 613034,
+      "sha256": "08E19A8ADD49FAEBD89742A2D5FF3BE64724A312ACCD75C4EA6EF21D7828D76F"
+    }
+  }
+}
