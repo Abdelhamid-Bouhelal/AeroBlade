@@ -1,0 +1,46 @@
+name: Reproducible problem report
+description: Report a reproducible AeroBlade software or documentation problem.
+title: "[Problem]: "
+labels: ["problem"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include confidential, proprietary, or personal data.
+  - type: input
+    id: version
+    attributes:
+      label: AeroBlade version
+      placeholder: 2.1.3
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 64-bit
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Give the smallest complete sequence that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add non-confidential log excerpts, screenshots, or numerical inputs when useful.
