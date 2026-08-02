@@ -44,7 +44,7 @@ AeroBlade is proprietary software distributed under the AeroBlade Academic and R
 
 ## Citation
 
-Use the metadata in [CITATION.cff](CITATION.cff). The Zenodo DOI will be added after the archival record is published.
+Use the metadata in [CITATION.cff](CITATION.cff). Archived software release: [https://doi.org/10.5281/zenodo.21758197](https://doi.org/10.5281/zenodo.21758197).
 
 ## Support
 
